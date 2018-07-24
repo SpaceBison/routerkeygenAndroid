@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "org.doublecheck.wifiscanner"
@@ -20,5 +19,5 @@ android {
 
 dependencies {
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
-    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:support-v4:22.2.1'
 }
